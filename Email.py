@@ -5,7 +5,7 @@ from email.mime.image import MIMEImage
 
 my_email = 'k213815@nu.edu.pk'
 password = 'hamzaowais.1'
-recipient = ('k213815@nu.edu.pk','k213828@nu.edu.pk','k213838@nu.edu.pk')
+recipient = ('k213815@nu.edu.pk','k213828@nu.edu.pk','k213835@nu.edu.pk')
 connect_server = SMTP('smtp.gmail.com')
 
 connect_server.starttls()
