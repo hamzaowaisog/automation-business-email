@@ -3,10 +3,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 
-my_email = 'k213815@nu.edu.pk'
-password = 'hamzaowais.1'
-recipient = ('k213815@nu.edu.pk','k213828@nu.edu.pk','k213835@nu.edu.pk')
-connect_server = SMTP('smtp.gmail.com')
+my_email = 'enter your email'
+password = 'enter your password'
+recipient = ('enter recipient email')
+connect_server = SMTP('smtp.gmail.com') #enter hostname for the email service you are using
 
 connect_server.starttls()
 connect_server.login(my_email, password)
